@@ -1,0 +1,20 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+.venv/
+*.pyc
+
+# Ignore data and warehouse outputs
+*.db
+
+# Ignore teset
+tests/
+test_transform.py
+
+# Ignore Data
+data/sample/
+*csv
+
+# Ignore risk.duckdb database file
+risk.duckdb
+
+ci.yml

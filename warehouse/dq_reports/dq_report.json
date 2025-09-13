@@ -1,0 +1,24 @@
+{
+  "generated_at": "2025-09-13T15:05:56.997662",
+  "rows": 10976850,
+  "null_counts": {
+    "event_date": 10935662,
+    "product": 0,
+    "category": 0,
+    "region": 0,
+    "platform": 10935662,
+    "genre": 10935662,
+    "units": 0,
+    "revenue": 0,
+    "source": 0
+  },
+  "duplicate_rows": 10976256,
+  "min_event_date": "2010-03-01 00:00:00",
+  "max_event_date": "2010-12-01 00:00:00",
+  "negative_revenue_rows": 0,
+  "negative_units_rows": 0,
+  "sources": {
+    "cfpb": 10935662,
+    "bank_mkt": 41188
+  }
+}

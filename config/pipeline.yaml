@@ -1,0 +1,25 @@
+sources:
+  - name: cfpb_complaints
+    kind: csv
+    path: https://files.consumerfinance.gov/ccdb/complaints.csv.zip
+    source_label: cfpb
+    kwargs:
+      compression: zip
+      low_memory: false
+
+  - name: bank_marketing
+    kind: csv
+    path: https://archive.ics.uci.edu/static/public/222/bank+marketing.zip
+    source_label: bank_mkt
+    kwargs:
+      compression: zip
+      sep: ";"
+      encoding: utf-8
+      low_memory: false
+
+warehouse:
+  duckdb_path: warehouse/risk.duckdb
+
+model:
+  unified_table: sales_facts
+  dq_report_dir: warehouse/dq_reports
