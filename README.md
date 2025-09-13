@@ -135,3 +135,10 @@ streamlit run dashboards/app.py
 ├── requirements.txt
 └── README.md
 ```
+
+---
+## 📷 Snapshots of Dashboard
+![Steamlit Dashboard Local 1](assets/Dashboard1.png)
+![Steamlit Dashboard Local 2](assets/Dashboard2.png)
+![Steamlit Dashboard Local 3](assets/Dashboard3.png)
+![Steamlit Dashboard Local 4](assets/Dashboard4.png)
